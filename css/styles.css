@@ -8448,6 +8448,48 @@ textarea.form-control-lg {
   visibility: hidden !important;
 }
 
+.position-relative {
+  position: relative;
+}
+
+.square-filled {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  border-radius: 10%;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.square-outline {
+  width: 100px;
+  height: 100px;
+  border: rgb(15, 209, 66) 4px solid !important; /* Bootstrap primary color */
+  border-radius: 10%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+}
+
+.image-placeholder {
+  width: 150px;
+  height: 150px;
+  background-color: #f0f0f0; /* Light gray placeholder color */
+  color: #333; /* Text color */
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  border: 1px solid #ccc; /* Light border for the placeholder */
+}
+
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
