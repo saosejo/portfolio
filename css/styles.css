@@ -8452,24 +8452,24 @@ textarea.form-control-lg {
   position: relative;
 }
 
-.square-filled {
-  width: 100px;
-  height: 100px;
+/* .square-filled {
+  width: 250rem;
+  height: 250rem;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
   border-radius: 10%;
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: -100px;
+  left: -100px;
   z-index: 1;
-}
+} */
 
 .square-outline {
-  width: 100px;
-  height: 100px;
+  width: 200rem;
+  height: 200rem;
   border: rgb(15, 209, 66) 4px solid !important; /* Bootstrap primary color */
   border-radius: 10%;
   position: absolute;
-  top: 10px;
+  top: 120px;
   right: 10px;
   z-index: 2;
 }
